@@ -6,8 +6,8 @@ b {
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #2b2b2b;
-    color: #fff;
+    background-color: #2b2b2b !important;
+    color: #fff !important;
     margin: 0;
     padding: 0;
     display: grid;
@@ -20,11 +20,11 @@ body {
 }
 #header {
     grid-area: header;
-    background-color: rgb(15, 14, 14);
+    background-color: rgb(15, 14, 14) !important;
 }
 #mainContener {
     grid-area: mainContener;
-    background-color: #2b2b2b;
+    background-color: #2b2b2b !important;
     padding: 0 300px;
     padding-bottom: 50px;
 }
@@ -42,37 +42,37 @@ body {
     min-width: 150px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #333;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #333 !important;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1) !important;
   }
   table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    background-color: #444;
-    color: #fff;
+    background-color: #444 !important;
+    color: #fff !important;
   }
   th, td {
     padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #555;
+    border-bottom: 1px solid #555 !important;
   }
   th {
-    background-color: #555;
+    background-color: #555 !important;
   }
   tr:nth-child(even) {
-    background-color: #666;
+    background-color: #666 !important;
   }
   tr:hover {
-    background-color: #777;
+    background-color: #777 !important;
   }
 a:link, a:visited, a:active {
-    color: #fff;
+    color: #fff !important;
     font-weight: bold;
     text-decoration: underline;
 }
 a:hover {
-  color: red;
+  color: red !important;
   font-weight: bold;
   text-decoration: underline;
 }
@@ -85,7 +85,7 @@ h2 {
 @media (max-width:1200px) {
     #mainContener {
         grid-area: mainContener;
-        background-color: #2b2b2b;
+        background-color: #2b2b2b !important;
         padding: 0 200px;
         padding-bottom: 50px;
     }
@@ -93,7 +93,7 @@ h2 {
 @media (max-width:850px) {
     #mainContener {
         grid-area: mainContener;
-        background-color: #2b2b2b;
+        background-color: #2b2b2b !important;
         padding: 0 100px;
         padding-bottom: 50px;
     }
@@ -101,7 +101,7 @@ h2 {
 @media (max-width:650px) {
     #mainContener {
         grid-area: mainContener;
-        background-color: #2b2b2b;
+        background-color: #2b2b2b !important;
         padding: 0 10px;
         padding-bottom: 50px;
     }
@@ -119,7 +119,7 @@ h2 {
 @media (max-width:375px) {
     body {
         font-family: Arial, sans-serif;
-        background-color: #2b2b2b;
+        background-color: #2b2b2b !important;
         color: #fff;
         margin: 0;
         padding: 0;
@@ -133,5 +133,5 @@ h2 {
     }
 }
 .wazneZasady {
-    color: red;
+    color: red !important;
 }
