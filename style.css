@@ -135,3 +135,6 @@ h2 {
 .wazneZasady {
     color: red !important;
 }
+@media (prefers-color-scheme: dark) {
+    #mainContener { background-color: #2b2b2b;
+}}
