@@ -135,3 +135,6 @@ h2 {
 .wazneZasady {
     color: red !important;
 }
+#employeeHeader {
+    margin-left: calc(50% - 100px);
+}
